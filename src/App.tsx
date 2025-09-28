@@ -13,7 +13,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, genre, status, descrip
         <div className="project-card-overlay"></div>
         <div className="project-card-content">
             <div className="project-image">
-                <div className="game-icon">🎮</div>
+                <img
+                    src={image}
+                    alt={title}
+                    style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        borderRadius: '0.75rem'
+                    }}
+                />
             </div>
             <div className="project-header">
                 <h3 className="project-title">{title}</h3>
@@ -88,16 +97,16 @@ const GameStudioLanding: React.FC = () => {
             genre: "Foddian Platformer",
             status: "Demo Released",
             description: "To Clean The Mountain is a platformer where you traverse a mountainous environment by flinging yourself with a bag. Enjoy the open environment without guardrails as you persevere towards the summit.",
-            image: "/api/placeholder/400/240",
+            image: "/Images/TCTM_Project_Cover.jpg",
             platforms: ["Steam, itch.io"]
         },
         {
             title: "Srogue",
-            genre: "Roguelike",
+            genre: "Snake Roguelike",
             status: "In Development",
-            description: "Explore vast magical worlds with friends in this next-generation MMO. Build guilds, conquer dungeons, and shape the realm's destiny.",
-            image: "/api/placeholder/400/240",
-            platforms: ["PC", "Mac", "Mobile"]
+            description: "In Srogue, your goal is to become the biggest snake. Fight different enemies and level up by consuming them. Unlock different passive items, active items and body parts that increase your arsenal against waves of enemies. The more items you have the more powerful you become.",
+            image: "/Images/Srogue_Project_Cover.jpg",
+            platforms: ["Steam", "itch.io"]
         },
         {
             title: "Stellar Drift",
