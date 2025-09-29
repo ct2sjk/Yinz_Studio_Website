@@ -78,6 +78,7 @@ const GameStudioLanding: React.FC = () => {
     const [showScrollTop, setShowScrollTop] = useState(false);
 
     useEffect(() => {
+        document.title = "Yinz Studio";
         const handleScroll = () => {
             setScrollY(window.scrollY);
             setShowScrollTop(window.scrollY > 400);
@@ -98,7 +99,7 @@ const GameStudioLanding: React.FC = () => {
             status: "Demo Released",
             description: "To Clean The Mountain is a platformer where you traverse a mountainous environment by flinging yourself with a bag. Enjoy the open environment without guardrails as you persevere towards the summit.",
             image: "/Images/TCTM_Project_Cover.jpg",
-            platforms: ["Steam, itch.io"]
+            platforms: ["Steam", "itch.io"]
         },
         {
             title: "Srogue",
@@ -1025,7 +1026,6 @@ const GameStudioLanding: React.FC = () => {
                                 <div className="contact-card">
                                     <h3>General Inquiries</h3>
                                     <p className="email">yinzstudio@gmail.com</p>
-                                    <p className="note">We respond within 24 hours</p>
                                 </div>
                             </div>
                             <div className="hero-buttons">
@@ -1054,8 +1054,8 @@ const GameStudioLanding: React.FC = () => {
                                 <h3>Studio</h3>
                                 <ul>
                                     <li><a href= "#projects">About Us</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Press Kit</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                    <li><a href="https://www.dropbox.com/scl/fo/3g55paiv1vek2jtxpqer3/AEhx2n039id0mmFcPNaPZvQ?rlkey=bng50y7k2eswpcftz8pv68cvx&st=twx6m1wn&dl=0" target="_blank">Press Kit</a></li>
                                 </ul>
                             </div>
                             <div className="footer-section">
