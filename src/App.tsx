@@ -109,12 +109,12 @@ const GameStudioLanding: React.FC = () => {
             platforms: ["Steam", "itch.io"]
         },
         {
-            title: "Stellar Drift",
-            genre: "Space Simulation",
-            status: "Coming Soon",
-            description: "Command your own spaceship in this realistic space exploration game. Trade, fight, and discover new worlds in an infinite universe.",
+            title: "Stranded Again",
+            genre: "Game Jam Entry",
+            status: "Released on itch",
+            description: "Craft and forage to escape an island. Entry into the 2024 Kutztown University Game Jam",
             image: "/api/placeholder/400/240",
-            platforms: ["PC", "VR", "Console"]
+            platforms: ["itch.io"]
         }
     ];
 
@@ -157,7 +157,10 @@ const GameStudioLanding: React.FC = () => {
           padding: 0;
           box-sizing: border-box;
         }
-
+        html, body, #root {
+            height: 100%;
+            width: 100%;
+        }
         body {
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
           line-height: 1.6;
@@ -952,7 +955,7 @@ const GameStudioLanding: React.FC = () => {
                                 Our Game Portfolio
                             </h2>
                             <p className="section-subtitle">
-                                From indie gems to ambitious AAA experiences, explore the diverse worlds we've created.
+                                Explore the diverse worlds we've created.
                             </p>
                         </div>
                         <div className="projects-grid">
@@ -999,7 +1002,7 @@ const GameStudioLanding: React.FC = () => {
                                 <p>
                                     Our philosophy is simple: great games come from great teams. We believe in fostering creativity,
                                     encouraging innovation, and maintaining the highest standards of quality in everything we create.
-                                    From our indie roots to our current projects, we remain committed to crafting experiences that
+                                    We remain committed to crafting experiences that
                                     resonate with players on a deep emotional level.
                                 </p>
                             </div>
@@ -1015,28 +1018,21 @@ const GameStudioLanding: React.FC = () => {
                                 Let's Create Together
                             </h2>
                             <p className="section-subtitle" style={{ marginBottom: '3rem' }}>
-                                Interested in working with us, publishing opportunities, or just want to chat about games?
+                                Interested in working with us, or just want to chat about games?
                                 We'd love to hear from you.
                             </p>
                             <div className="contact-grid">
                                 <div className="contact-card">
                                     <h3>General Inquiries</h3>
-                                    <p className="email">hello@pixelforge-studios.com</p>
+                                    <p className="email">yinzstudio@gmail.com</p>
                                     <p className="note">We respond within 24 hours</p>
-                                </div>
-                                <div className="contact-card">
-                                    <h3>Career Opportunities</h3>
-                                    <p className="email">careers@pixelforge-studios.com</p>
-                                    <p className="note">Always looking for talented developers</p>
                                 </div>
                             </div>
                             <div className="hero-buttons">
                                 <button className="btn-primary">
                                     Get In Touch
                                 </button>
-                                <button className="btn-secondary">
-                                    View Open Positions
-                                </button>
+
                             </div>
                         </div>
                     </div>
@@ -1055,20 +1051,10 @@ const GameStudioLanding: React.FC = () => {
                                 </p>
                             </div>
                             <div className="footer-section">
-                                <h3>Games</h3>
-                                <ul>
-                                    <li><a href="#">Neon Shadows</a></li>
-                                    <li><a href="#">Mystic Realms</a></li>
-                                    <li><a href="#">Stellar Drift</a></li>
-                                    <li><a href="#">All Games</a></li>
-                                </ul>
-                            </div>
-                            <div className="footer-section">
                                 <h3>Studio</h3>
                                 <ul>
                                     <li><a href= "#projects">About Us</a></li>
                                     <li><a href="#">Team</a></li>
-                                    <li><a href="#">Careers</a></li>
                                     <li><a href="#">Press Kit</a></li>
                                 </ul>
                             </div>
