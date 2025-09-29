@@ -169,7 +169,7 @@ const GameStudioLanding: React.FC = () => {
 
         .landing-page {
           min-height: 100vh;
-          background: linear-gradient(to bottom right, #0f172a, #581c87, #0f172a);
+          background: linear-gradient(to bottom right, #052f5f, #005377, #052f5f);
           color: white;
           overflow-x: hidden;
           position: relative;
@@ -756,12 +756,17 @@ const GameStudioLanding: React.FC = () => {
           max-width: 64rem;
           margin: 0 auto;
           text-align: center;
+          justify-content: center;
         }
 
         .contact-grid {
           display: grid;
           gap: 2rem;
           margin-bottom: 3rem;
+          justify-content: center;
+          justify-items: center;
+          text-align: center;
+
         }
 
         @media (min-width: 768px) {
@@ -776,6 +781,7 @@ const GameStudioLanding: React.FC = () => {
           border-radius: 1rem;
           padding: 1.5rem;
           border: 1px solid rgba(100, 116, 139, 0.5);
+          
         }
 
         .contact-card h3 {
@@ -1027,12 +1033,6 @@ const GameStudioLanding: React.FC = () => {
                                     <h3>General Inquiries</h3>
                                     <p className="email">yinzstudio@gmail.com</p>
                                 </div>
-                            </div>
-                            <div className="hero-buttons">
-                                <button className="btn-primary">
-                                    Get In Touch
-                                </button>
-
                             </div>
                         </div>
                     </div>
