@@ -123,30 +123,30 @@ const GameStudioLanding: React.FC = () => {
         {
             name: "Carsten Kurtz",
             role: "Software Developer",
-            experience: "5+ years in game development",
-            specialties: ["Game Design", "C#", "Typescript"],
-            achievements: "Led development of 5 AAA titles, including Game of the Year winner 'Eternal Quest'"
+            experience: "2+ years in game development",
+            specialties: ["Game Design", "Programming", "Dev-Ops", "Web Dev"],
+            achievements: "Responsible for all of the code in the repos'"
         },
         {
             name: "Anthony Walls",
             role: "Artist",
-            experience: "8+ years in technical art",
-            specialties: ["Shader Programming", "VFX", "Pipeline Development"],
-            achievements: "Created award-winning visual effects for blockbuster titles at major studios"
+            experience: "2+ years as a concept and technical artist",
+            specialties: ["Pixel-art", "Game Design"],
+            achievements: "Draws every pixel rendered to a screen"
         },
         {
             name: "Liliana Sachsel",
             role: "Sound Design",
-            experience: "10+ years in engine development",
-            specialties: ["Engine Architecture", "Optimization", "Multiplayer Systems"],
-            achievements: "Core developer of proprietary game engine used by 50+ indie studios"
+            experience: "1+ years in sound design",
+            specialties: ["SFX", "Music"],
+            achievements: "Core sound and noise developer"
         }
     ];
 
     const studioStats = [
-        { number: "15+", label: "Games Released" },
-        { number: "50M+", label: "Players Worldwide" },
-        { number: "12", label: "Team Members" },
+        { number: "1+", label: "Games Released" },
+        { number: "2000+", label: "Players Worldwide" },
+        { number: "3", label: "Team Members" },
         { number: "8", label: "Years Experience" }
     ];
 
@@ -889,6 +889,7 @@ const GameStudioLanding: React.FC = () => {
                     <div
                         className="bg-blob-2"
                         style={{ transform: `translateY(${-scrollY * 0.3}px)` }}
+                        
                     ></div>
                     <div
                         className="bg-blob-3"
@@ -907,9 +908,9 @@ const GameStudioLanding: React.FC = () => {
                         <a href="#about">About</a>
                         <a href="#contact">Contact</a>
                     </div>
-                    <button className="nav-button">
+                    <a target="_blank" href="https://store.steampowered.com/app/3138600/To_Clean_The_Mountain_Demo/" className="nav-button">
                         Play Our Games
-                    </button>
+                    </a>
                 </nav>
 
                 {/* Hero Section */}
@@ -926,14 +927,14 @@ const GameStudioLanding: React.FC = () => {
                             innovative gaming experiences that push the boundaries of interactive entertainment.
                         </p>
                         <div className="hero-buttons">
-                            <button className="btn-primary">
+                            <a target="_blank" href="https://store.steampowered.com/app/3138600/To_Clean_The_Mountain_Demo/" className="btn-primary">
                                 <span style={{ marginRight: '0.5rem' }}>▶️</span>
                                 Play Our Latest Game
                                 <span style={{ marginLeft: '0.5rem' }}>→</span>
-                            </button>
-                            <button className="btn-secondary">
+                            </a>
+                            <a href ="#projects" className="btn-secondary">
                                 View Our Portfolio
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -1062,8 +1063,8 @@ const GameStudioLanding: React.FC = () => {
                                 <h3>Community</h3>
                                 <ul>
                                     <li><a href="#">Discord</a></li>
-                                    <li><a href="#">Twitter</a></li>
-                                    <li><a href="#">YouTube</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#https://www.youtube.com/@YinzStudio/videos">YouTube</a></li>
                                 </ul>
                             </div>
                         </div>
