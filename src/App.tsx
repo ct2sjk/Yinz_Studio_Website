@@ -96,7 +96,7 @@ const GameStudioLanding: React.FC = () => {
         {
             title: "To Clean The Mountain",
             genre: "Foddian Platformer",
-            status: "Demo Released",
+            status: "Coming Soon",
             description: "To Clean The Mountain is a platformer where you traverse a mountainous environment by flinging yourself with a bag. Enjoy the open environment without guardrails as you persevere towards the summit.",
             image: "/Images/TCTM_Project_Cover.jpg",
             platforms: ["Steam", "itch.io"]
@@ -112,9 +112,9 @@ const GameStudioLanding: React.FC = () => {
         {
             title: "Stranded Again",
             genre: "Game Jam Entry",
-            status: "Released on itch",
+            status: "Released",
             description: "Craft and forage to escape an island. Entry into the 2024 Kutztown University Game Jam",
-            image: "/api/placeholder/400/240",
+            image: "/Images/StrandedAgain_Project_Cover.png",
             platforms: ["itch.io"]
         }
     ];
