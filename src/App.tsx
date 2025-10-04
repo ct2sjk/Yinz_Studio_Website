@@ -1,4 +1,5 @@
 ﻿import React, { useState, useEffect } from 'react';
+import ContactForm from "./ContactForm";
 interface ProjectCardProps {
     title: string;
     genre: string;
@@ -1029,12 +1030,12 @@ const GameStudioLanding: React.FC = () => {
                                 Interested in working with us, or just want to chat about games?
                                 We'd love to hear from you.
                             </p>
-                            <div className="contact-grid">
-                                <div className="contact-card">
-                                    <h3>General Inquiries</h3>
-                                    <p className="email">yinzstudio@gmail.com</p>
-                                </div>
+                            
+                            
+                            <div className = "contact-card">
+                                <ContactForm />
                             </div>
+                            
                         </div>
                     </div>
                 </section>
