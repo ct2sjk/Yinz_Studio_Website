@@ -1072,7 +1072,7 @@ const GameStudioLanding: React.FC = () => {
                                 <h3>Contact Info</h3>
                                 <ul>
                                     <li>YinzStudio@gmail.com</li>
-                                    
+                                    <li>240-695-3360</li>
                                 </ul>
                             </div>
                         </div>
