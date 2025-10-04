@@ -1068,6 +1068,13 @@ const GameStudioLanding: React.FC = () => {
                                     <li><a href="#https://www.youtube.com/@YinzStudio/videos">YouTube</a></li>
                                 </ul>
                             </div>
+                            <div className="footer-section">
+                                <h3>Contact Info</h3>
+                                <ul>
+                                    <li>YinzStudio@gmail.com</li>
+                                    
+                                </ul>
+                            </div>
                         </div>
                         <div className="footer-bottom">
                             <p>&copy; 2025 Yinz Studio. All rights reserved. | Made with ❤️ for gamers worldwide</p>
