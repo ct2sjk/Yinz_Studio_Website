@@ -50,12 +50,21 @@ interface TeamMemberProps {
     experience: string;
     specialties: string[];
     achievements: string;
+    image: string;
 }
 
-const TeamMember: React.FC<TeamMemberProps> = ({ name, role, experience, specialties, achievements }) => (
+const TeamMember: React.FC<TeamMemberProps> = ({ name, role, experience, specialties, achievements,image }) => (
     <div className="team-member">
         <div className="avatar">
-            <div className="avatar-icon">👤</div>
+            <img
+                src={image}
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    borderRadius: '0.75rem'
+                }}
+            />
         </div>
         <h3 className="member-name">{name}</h3>
         <p className="member-role">{role}</p>
@@ -126,21 +135,24 @@ const GameStudioLanding: React.FC = () => {
             role: "Software Developer",
             experience: "2+ years in game development",
             specialties: ["Game Design", "Programming", "Dev-Ops", "Web Dev"],
-            achievements: "Responsible for all of the code in the repos'"
+            achievements: "Responsible for all of the code in the repos'",
+            image: "/Images/C_Kurtz_Image.jpg"
         },
         {
             name: "Anthony Walls",
             role: "Artist",
             experience: "2+ years as a concept and technical artist",
             specialties: ["Pixel-art", "Game Design"],
-            achievements: "Draws every pixel rendered to a screen"
+            achievements: "Draws every pixel rendered to a screen",
+            image: "/Images/A_Walls_Image.jpg"
         },
         {
             name: "Liliana Sachsel",
             role: "Sound Design",
             experience: "1+ years in sound design",
             specialties: ["SFX", "Music"],
-            achievements: "Core sound and noise developer"
+            achievements: "Core sound and noise developer",
+            image: "/Images/L_Sachsel_Image.jpg"
         }
     ];
 
