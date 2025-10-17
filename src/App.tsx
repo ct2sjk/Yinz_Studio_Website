@@ -123,7 +123,7 @@ const GameStudioLanding: React.FC = () => {
             title: "Stranded Again",
             genre: "Game Jam Entry",
             status: "Released",
-            description: "Craft and forage to escape an island. Entry into the 2024 Kutztown University Game Jam",
+            description: "The unluckiest man alive washes up on a mysterious island. Explore the land, collect resources and build items to survive. Maybe there's a way to make island life more bearable. Will he test his luck at an escape or will he live out his days in the sand?. Entry into the 2024 Kutztown University Game Jam",
             image: "/Images/StrandedAgain_Project_Cover.png",
             platforms: ["itch.io"]
         }
@@ -150,8 +150,8 @@ const GameStudioLanding: React.FC = () => {
             name: "Liliana Sachsel",
             role: "Sound Design",
             experience: "1+ years in sound design",
-            specialties: ["SFX", "Music"],
-            achievements: "Core sound and noise developer",
+            specialties: ["SFX", "Music","Game Design"],
+            achievements: "Core Sound and Noise developer",
             image: "/Images/L_Sachsel_Image.jpg"
         }
     ];
@@ -1069,14 +1069,14 @@ const GameStudioLanding: React.FC = () => {
                                 <ul>
                                     <li><a href= "#projects">About Us</a></li>
                                     <li><a href="#team">Team</a></li>
-                                    <li><a href="https://www.dropbox.com/scl/fo/3g55paiv1vek2jtxpqer3/AEhx2n039id0mmFcPNaPZvQ?rlkey=bng50y7k2eswpcftz8pv68cvx&st=twx6m1wn&dl=0" target="_blank">Press Kit</a></li>
+                                    <li><a href="#https://www.dropbox.com/scl/fo/3g55paiv1vek2jtxpqer3/AEhx2n039id0mmFcPNaPZvQ?rlkey=bng50y7k2eswpcftz8pv68cvx&st=twx6m1wn&dl=0" target="_blank">Press Kit</a></li>
                                 </ul>
                             </div>
                             <div className="footer-section">
                                 <h3>Community</h3>
                                 <ul>
-                                    <li><a href="#">Discord</a></li>
-                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#https://discord.gg/M3Zbw53Qnv">Discord</a></li>
+                                    <li><a href="#https://www.instagram.com/yinzstudio_dev/">Instagram</a></li>
                                     <li><a href="#https://www.youtube.com/@YinzStudio/videos">YouTube</a></li>
                                 </ul>
                             </div>
