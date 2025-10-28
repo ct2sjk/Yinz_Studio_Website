@@ -1069,15 +1069,15 @@ const GameStudioLanding: React.FC = () => {
                                 <ul>
                                     <li><a href= "#projects">About Us</a></li>
                                     <li><a href="#team">Team</a></li>
-                                    <li><a href="#https://www.dropbox.com/scl/fo/3g55paiv1vek2jtxpqer3/AEhx2n039id0mmFcPNaPZvQ?rlkey=bng50y7k2eswpcftz8pv68cvx&st=twx6m1wn&dl=0" target="_blank">Press Kit</a></li>
+                                    <li><a href="https://www.dropbox.com/scl/fo/3g55paiv1vek2jtxpqer3/AEhx2n039id0mmFcPNaPZvQ?rlkey=bng50y7k2eswpcftz8pv68cvx&st=twx6m1wn&dl=0" target="_blank">Press Kit</a></li>
                                 </ul>
                             </div>
                             <div className="footer-section">
                                 <h3>Community</h3>
                                 <ul>
-                                    <li><a href="#https://discord.gg/M3Zbw53Qnv">Discord</a></li>
-                                    <li><a href="#https://www.instagram.com/yinzstudio_dev/">Instagram</a></li>
-                                    <li><a href="#https://www.youtube.com/@YinzStudio/videos">YouTube</a></li>
+                                    <li><a href="https://discord.gg/M3Zbw53Qnv" target="_blank">Discord</a></li>
+                                    <li><a href="https://www.instagram.com/yinzstudio_dev/" target="_blank">Instagram</a></li>
+                                    <li><a href="https://www.youtube.com/@YinzStudio/videos" target="_blank">YouTube</a></li>
                                 </ul>
                             </div>
                             <div className="footer-section">
