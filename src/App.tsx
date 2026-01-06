@@ -157,7 +157,6 @@ const GameStudioLanding: React.FC = () => {
     ];
 
     const studioStats = [
-        { number: "1+", label: "Games Released" },
         { number: "2000+", label: "Players Worldwide" },
         { number: "3", label: "Team Members" },
         { number: "8", label: "Years Experience" }
