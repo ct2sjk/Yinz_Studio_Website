@@ -106,7 +106,7 @@ const GameStudioLanding: React.FC = () => {
         {
             title: "To Clean The Mountain",
             genre: "Foddian Platformer",
-            status: "Coming Soon",
+            status: "Released",
             description: "To Clean The Mountain is a platformer where you traverse a mountainous environment by flinging yourself with a bag. Enjoy the open environment without guardrails as you persevere towards the summit.",
             image: "/Images/TCTM_Project_Cover.jpg",
             platforms: ["Steam", "itch.io"]
