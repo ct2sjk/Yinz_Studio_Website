@@ -7,10 +7,11 @@ interface ProjectCardProps {
     description: string;
     image: string;
     platforms: string[];
+    href: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, genre, status, description, image, platforms }) => (
-    <div className="project-card">
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, genre, status, description, image, platforms, href}) => (
+    <div className="project-card" onClick={() => window.location.href = href}>
         <div className="project-card-overlay"></div>
         <div className="project-card-content">
             <div className="project-image">
@@ -109,7 +110,8 @@ const GameStudioLanding: React.FC = () => {
             status: "Released",
             description: "To Clean The Mountain is a platformer where you traverse a mountainous environment by flinging yourself with a bag. Enjoy the open environment without guardrails as you persevere towards the summit.",
             image: "/Images/TCTM_Project_Cover.jpg",
-            platforms: ["Steam", "itch.io"]
+            platforms: ["Steam", "itch.io"],
+            href: "https://store.steampowered.com/app/3138520/To_Clean_The_Mountain/"
         },
         {
             title: "Srogue",
@@ -117,7 +119,8 @@ const GameStudioLanding: React.FC = () => {
             status: "In Development",
             description: "In Srogue, your goal is to become the biggest snake. Fight different enemies and level up by consuming them. Unlock different passive items, active items and body parts that increase your arsenal against waves of enemies. The more items you have the more powerful you become.",
             image: "/Images/Srogue_Project_Cover.jpg",
-            platforms: ["Steam", "itch.io"]
+            platforms: ["Steam", "itch.io"],
+            href: "https://store.steampowered.com/app/2886340/Srogue/"
         },
         {
             title: "Stranded Again",
@@ -125,7 +128,8 @@ const GameStudioLanding: React.FC = () => {
             status: "Released",
             description: "The unluckiest man alive washes up on a mysterious island. Explore the land, collect resources and build items to survive. Maybe there's a way to make island life more bearable. Will he test his luck at an escape or will he live out his days in the sand?. Entry into the 2024 Kutztown University Game Jam",
             image: "/Images/StrandedAgain_Project_Cover.png",
-            platforms: ["itch.io"]
+            platforms: ["itch.io"],
+            href: "https://virtualflora.itch.io/stranded-again"
         }
     ];
 
